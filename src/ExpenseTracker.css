@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_container {
+  width: 30%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0 2rem;
+  background-color: rgb(227, 226, 218);
+}
+.header_container {
+  text-align: center;
+}
+.balance_container {
+  padding-top: 1.5rem;
+}
+.balance_container h5 {
+  line-height: 0.5rem;
+}
+.income_container {
+  display: flex;
+  padding: 1rem;
+  min-height: 6vh;
+  box-shadow: 0px 9px 13px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.income {
+  width: 50%;
+  text-align: center;
+}
+.income h4 {
+  color: rgb(128, 220, 185);
+}
+.expense {
+  width: 50%;
+  text-align: center;
+  border-left: 0.5px solid black;
+}
+.expense h4 {
+  color: rgb(203, 119, 119);
+}
+.history_container {
+  margin-top: 1rem;
+}
+.history_container h6 {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+}
+.ul_container {
+  margin-right: 1rem;
+  padding: 0;
+  list-style: none;
+}
+.ul_container li {
+  background-color: white;
+  margin: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.2);
+}
+.ul_container span {
+  float: right;
+}
+.transection_container {
+  margin-top: 3rem;
+}
+.transection_container h4 {
+  border-bottom: 1px solid black;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+.form_control input {
+  padding: 0.2rem;
+  margin-top: 0.3rem;
+}
+form button {
+  border: none;
+  outline: none;
+  background-color: rgb(95, 95, 235);
+  color: white;
+  margin-top: 1rem;
+  padding: 0.3rem;
+  width: 100%;
+}
